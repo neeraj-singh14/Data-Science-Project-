@@ -9,9 +9,11 @@ This project analyzes student responses to DSAT adaptive tests, stores them in M
 ├── data_push.py                # Utility to upload JSON data to MongoDB
 ├── model_check.py              # Analyze thresholds and student performance
 ├── performance_check.py        # Evaluate and identify high-impact questions
-├── 66fece285a916f0bb5aea9c5user_attempt_v3.json    # Sample student responses (v3)
-├── 67f2aae2c084263d16dbe462user_attempt_v2.json    # Sample student responses (v2)
 ├── scoring_DSAT_v2.json        # Raw → scaled score mapping for DSAT
+├── data
+    ├── 66fece285a916f0bb5aea9c5user_attempt_v3.json    # Sample student responses (v3)
+    ├── 67f2aae2c084263d16dbe462user_attempt_v2.json    # Sample student responses (v2)
+
 ```
 
 ---
